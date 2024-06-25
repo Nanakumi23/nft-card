@@ -1,0 +1,21 @@
+section{
+    border: solid red 1px; 
+    height:500px;
+    width: 500px;
+    margin: 0 auto;
+    background-color:hsl(217, 54%, 11%)
+  
+}
+
+article{
+    width: 80%;
+    height: 60%;
+    border: solid blue 1px; 
+    padding-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    margin-top: 60px;
+    border-radius: hsl(216, 50%, 16%);
+
+}
