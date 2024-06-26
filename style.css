@@ -1,21 +1,97 @@
 section{
-    border: solid red 1px; 
-    height:500px;
-    width: 500px;
+    padding-top: 20px;
+    height:550px;
+    width: 400px;
+    max-width: 500px;
     margin: 0 auto;
-    background-color:hsl(217, 54%, 11%)
+    background-color:hsl(217, 54%, 11%);
+    
+    
   
 }
 
 article{
-    width: 80%;
-    height: 60%;
-    border: solid blue 1px; 
+    width: 50%;
+    height: 40%;
+    background-repeat: no-repeat;
+    padding: 30px;
     padding-bottom: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+  
+    background-position: center;
+    margin:  auto;
 
-    margin-top: 60px;
+
     border-radius: hsl(216, 50%, 16%);
+    background-image: url("./images/image-equilibrium.jpg");
+    object-fit: contain;
+    border-radius: 10px;
+    background-size: contain;
+}
+
+.title{ 
+    font-size: 10px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    margin-left: 70px;
+    margin-right: 60px;
+
+}
+
+.explanation{
+    display: block;
+    background-image: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 11px;
+    height: 20px;
+    margin-top: 10px;
+    color: rgb(128, 128, 128) ; 
+    letter-spacing: 2px;
+    margin-left: 70px;
+    margin-right: 60px;
+}
+.price{
+    display: inline;
+    height: fit-content;
+    width: 80%;
+}
+ .price p {
+    color: greenyellow;
+    float:right ;
+ }
+.eth-price{
+    margin-left: 10px;
+    margin-right: 400px;
+    margin-top: 5px;
+    position: relative;
+    left: 140px;
+   bottom:22px;
+   white-space: nowrap;
+   font-size: small;
+}
+.eth-img{
+    position: relative;
+    left: 70px;
+    width: 7px;
+}
+
+.clock{
+    position: relative;
+    left: 220px;
+    top: 9px;
+}
+
+.time{
+    color: white;
+    position: relative;
+    bottom: 42px;
+    left: 260px;
+    font-size: 10px;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 70px;
 
 }
