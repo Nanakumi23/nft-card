@@ -93,5 +93,15 @@ article{
     height: 40px;
     position: relative;
     left: 70px;
+    border: solid white 1px;
+    border-radius: 50%;
 
+}
+
+.author{
+    color: white;
+    font-size: 10px;
+    position: relative;
+    left: 120px;
+    bottom:40px;
 }
